@@ -681,6 +681,10 @@ body {
     .btn-outline-primary {
       display: none;
     }
+    .contact--input {
+      padding: 0;
+      border-radius: 0;
+    }
     .resume {
       margin-left: 28px;
     }
