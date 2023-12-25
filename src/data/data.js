@@ -1,4 +1,8 @@
-{
+import cartifyImage from "../assets/Cartify.jpeg";
+import Image from "../assets/promptopia.jpeg";
+import Image2 from "../assets/movieland.jpeg";
+import Image3 from "../assets/hangman.png";
+export const data = {
     "skills": [
       {
         "id": "1",
@@ -46,7 +50,7 @@
       {
         "id": "1",
         "tags": ["Next.js","Next-Auth","Tailwind CSS"],
-        "src": "../src/assets/promptopia.jpeg",
+        "src": Image,
         "title": "Promptopia",
         "description": "A Full stack project where users can sign up using Google, create some popular AI prompts, and can see other people's prompts also..",
         "link": "https://github.com/Aayush987/Promptopia",
@@ -55,7 +59,7 @@
       {
         "id": "2",
         "tags": ["React.js","API"],
-        "src": "../src/assets/movieland.jpeg",
+        "src": Image2,
         "title": "MovieLand",
         "description": "It is a movie search application that lets you search your favourite movies",
         "link": "https://github.com/Aayush987/Movieland",
@@ -64,7 +68,7 @@
       {
         "id": "3",
         "tags": ["HTML","CSS","JavaScript","Firebase"],
-        "src": "../src/assets/cartify.jpeg",
+        "src": cartifyImage,
         "title": "Cartify",
         "description": "A Simple User friendly Cart functionality built using Firebase for the database that lets you add and remove items from the cart.",
         "link": "https://github.com/Aayush987/Cartify",
@@ -73,7 +77,7 @@
       {
         "id": "4",
         "tags": ["React.js", "TypeScript"],
-        "src": "../src/assets/hangman.png",
+        "src": Image3,
         "title": "Hangman Game",
         "description": "Old School Hangman Game in which we have to guess a given word before the hangman appears.",
         "link": "https://github.com/Aayush987/Hangman-Game",
