@@ -46,7 +46,7 @@
       {
         "id": "1",
         "tags": ["Next.js","Next-Auth","Tailwind CSS"],
-        "src": "../public/promptopia.jpeg",
+        "src": "../src/assets/promptopia.jpeg",
         "title": "Promptopia",
         "description": "A Full stack project where users can sign up using Google, create some popular AI prompts, and can see other people's prompts also..",
         "link": "https://github.com/Aayush987/Promptopia",
@@ -55,7 +55,7 @@
       {
         "id": "2",
         "tags": ["React.js","API"],
-        "src": "../public/movieland.jpeg",
+        "src": "../src/assets/movieland.jpeg",
         "title": "MovieLand",
         "description": "It is a movie search application that lets you search your favourite movies",
         "link": "https://github.com/Aayush987/Movieland",
@@ -64,7 +64,7 @@
       {
         "id": "3",
         "tags": ["HTML","CSS","JavaScript","Firebase"],
-        "src": "../public/cartify.jpeg",
+        "src": "../src/assets/cartify.jpeg",
         "title": "Cartify",
         "description": "A Simple User friendly Cart functionality built using Firebase for the database that lets you add and remove items from the cart.",
         "link": "https://github.com/Aayush987/Cartify",
@@ -73,7 +73,7 @@
       {
         "id": "4",
         "tags": ["React.js", "TypeScript"],
-        "src": "../public/hangman.png",
+        "src": "../src/assets/hangman.png",
         "title": "Hangman Game",
         "description": "Old School Hangman Game in which we have to guess a given word before the hangman appears.",
         "link": "https://github.com/Aayush987/Hangman-Game",
