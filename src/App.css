@@ -512,7 +512,6 @@ body {
     text-align: center;
     gap: 64px;
     /* background-color: var(--primary); */
-    /* color: var(--white); */
   }
   .contact--section > svg {
     margin: 0;
@@ -523,7 +522,7 @@ body {
     grid-template-rows: repeat(5, auto);
     width: 40%;
     row-gap: 32px;
-    color: var(--white);
+    /* color: var(--white); */
     /* background: rgba(255,255,255,0.3);
     box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
     backdrop-filter: blur(8.6px);
