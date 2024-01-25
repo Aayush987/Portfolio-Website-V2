@@ -1,4 +1,5 @@
 import cartifyImage from "../assets/Cartify.jpeg";
+import Image4 from "../assets/Express_Blog.jpg";
 import Image from "../assets/promptopia.jpeg";
 import Image2 from "../assets/movieland.jpeg";
 import Image3 from "../assets/hangman.png";
@@ -49,6 +50,15 @@ export const data = {
     "portfolio": [
       {
         "id": "1",
+        "tags": ["React.js","Node.js","Express.js","MongoDB"],
+        "src": Image4,
+        "title": "Express Blog",
+        "description": "A Full-stack Blogging Application that enables seamless user registration, login, and blog creation using a rich text editor.",
+        "link": "https://github.com/Aayush987/Express-Blog-",
+        "demo": "https://express-blog-zeta.vercel.app/"
+      },
+      {
+        "id": "2",
         "tags": ["Next.js","Next-Auth","Tailwind CSS"],
         "src": Image,
         "title": "Promptopia",
@@ -57,7 +67,7 @@ export const data = {
         "demo": "https://promptopia-4w3tvquk7-aayush-sharmas-projects.vercel.app/"
       },
       {
-        "id": "2",
+        "id": "3",
         "tags": ["React.js","API"],
         "src": Image2,
         "title": "MovieLand",
@@ -66,7 +76,7 @@ export const data = {
         "demo": "https://aayush987-movieland.netlify.app/"
       },
       {
-        "id": "3",
+        "id": "4",
         "tags": ["HTML","CSS","JavaScript","Firebase"],
         "src": cartifyImage,
         "title": "Cartify",
@@ -75,7 +85,7 @@ export const data = {
         "demo": "https://cartify-aayush987.netlify.app/"
       },
       {
-        "id": "4",
+        "id": "5",
         "tags": ["React.js", "TypeScript"],
         "src": Image3,
         "title": "Hangman Game",
