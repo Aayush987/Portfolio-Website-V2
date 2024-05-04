@@ -391,7 +391,7 @@ body {
   }
   .portfolio--section--container {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     gap: 42.6px;
     width: 100%;
