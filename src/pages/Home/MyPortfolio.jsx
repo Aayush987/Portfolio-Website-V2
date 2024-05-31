@@ -44,6 +44,7 @@ export default function MyPortfolio() {
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
               </div>
+              <div className="portfolio--section--links">
               <a href = {item.link} target="_blank" rel="noreferrer" className="text-sm portfolio--link">
                 Source Code
                 <svg
@@ -80,6 +81,7 @@ export default function MyPortfolio() {
                   />
                 </svg>
               </a>
+              </div>
             </div>
           </div>
         ))}

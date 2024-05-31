@@ -77,7 +77,7 @@ export const data = {
       },
       {
         "id": "4",
-        "tags": ["HTML","CSS","JavaScript","Firebase"],
+        "tags": "[HTML,CSS,JavaScript,Firebase]",
         "src": cartifyImage,
         "title": "Cartify",
         "description": "A Simple User friendly Cart functionality built using Firebase for the database that lets you add and remove items from the cart.",

@@ -116,6 +116,7 @@ body {
     color: var(--darkblue);
     font-size: 16px;
     font-style: normal;
+    text-align: center;
     font-weight: 400;
     line-height: 24px;
   }
@@ -254,7 +255,7 @@ body {
   .skills--section--container {
     display: grid;
     justify-content: center;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 42.6px;
     grid-template-columns: repeat(4, 1fr);
   }
@@ -390,12 +391,21 @@ body {
     gap: 21.3px;
   }
   .portfolio--section--container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: stretch;
     justify-content: center;
     gap: 42.6px;
     width: 100%;
     font-family: 'Merriweather', serif;
+  }
+  .portfolio--section--links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
   }
   .portfolio--section--title {
     text-align: center;
@@ -547,7 +557,7 @@ body {
   .contact--input {
     display: flex;
     font-family: "Roboto";
-    padding: 16px;
+    padding: 16px 2px;
     align-items: center;
     align-self: stretch;
     border-radius: 8px;
@@ -711,6 +721,15 @@ body {
       display: flex;
       flex-direction: column;
     }
+    .portfolio--section--links {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .hero--section-description {
+      font-family: none;
+      font-weight: bold;
+    }
     .skills--section--img:nth-child(1) {
       margin-right: 20px;
     }
@@ -742,7 +761,6 @@ body {
     .contact--section > svg {
       display: none;
     }
-
     .skills--section,
     .portfolio--container,
     .hero--section--content,
