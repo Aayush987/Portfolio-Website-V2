@@ -64,7 +64,7 @@ export const data = {
         "title": "Promptopia",
         "description": "A Full stack project where users can sign up using Google, create some popular AI prompts, and can see other people's prompts also..",
         "link": "https://github.com/Aayush987/Promptopia",
-        "demo": "https://promptopia-4w3tvquk7-aayush-sharmas-projects.vercel.app/"
+        "demo": "https://promptopia-bay-nu.vercel.app/"
       },
       {
         "id": "3",
